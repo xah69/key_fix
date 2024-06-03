@@ -15,9 +15,9 @@ elif [ "$arg_var" = "show" ]; then
 else
     echo "[choose the device below to Turn it On or Off]"
     echo "[usage]"
-    echo "$ ./key_fix.sh on"
-    echo "$ ./key_fix.sh off"
-    echo "$ ./key_fix.sh show"
+    echo "$ key_fix.sh on"
+    echo "$ key_fix.sh off"
+    echo "$ key_fix.sh show"
     echo "# [note] --> You need provide <master id> and <slave id> in key_fix_config.sh"
     xinput list
 fi
