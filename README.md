@@ -7,6 +7,14 @@ key_fix is a tool designed to address unwanted keyboard behavior on a laptop's m
 * Disables the main laptop keyboard to prevent interruptions.
 * Allows USB keyboards to function without interruption.
 
+# Install dependencies
+    $ sudo apt install xinput # for debian
+
+# Making executable
+    $ chmod +x ./key_fix.sh
+    $ chmod +x ./key_fix_config.sh
+    
+
 # To use key_fix, follow these simple steps:
 
 # To turn off the main laptop keyboard:
