@@ -26,6 +26,8 @@ key_fix is a tool designed to address unwanted keyboard behavior on a laptop's m
 # To show the list of devices and its status:
     $ ./key_fix.sh show
     # it also shows the master id and slave id of the device which you have to put it in key_fix_config.sh file, replace existing id with yours.
+
+# "AT Translated Set 2 keyboard" is gennerally the laptop mains keyboard , so you need to grab this slave id and master id you can get usually from "virtual core keyboard"
     
 # [Note]
 Before using key_fix, ensure you provide the master id and slave id in the key_fix_config.sh configuration file.
